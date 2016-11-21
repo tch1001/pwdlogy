@@ -115,11 +115,22 @@ WARNING: This will override any existing file.
     usage: exit
     usage: quit
 
+##How to Use
+
+ 1. Find out the victim's name, username, hobbies, sports team, favourite food, and everything you can find out about him that might appear in his/her password
+ 2. Find out as much as possible about his pets, family, friends (e.g. their name, birthday, and any keyword that might appear in his/her password
+ 3. Place all the keywords (not the birthdays) into the `keywords.txt` file, with each keyword separated by a next line.
+ 4. Place all the birthdays into the `birthday.txt` file, with each password being in the format (DDMMYYYY) and separated by a next line.
+ 5. If you are fairly new to this tool, enter `start` and navigate to the `gen.txt` file (or whatever file if you have changed the settings) to see the generated wordlist. `Go to 8`
+ 6. If you wish to use custom settings, use the `custom` command and follow the instructions displayed. Edit the custom formats file and when you are done, run the command `start` to begin generating the wordlist.
+ 7. Check the `gen.txt` file to see the generated wordlist.
+ 8. The wordlist generated will contain possible passwords of your victim. Use the wordlist with any password cracker. Good luck!
+ 
+**Disclaimer:**
+**Please do not use in military or secret service organizations, or for illegal purposes. The tool here is only used for educational purposes only. I will not be held responsible for any illegal activities conducted with this. Enjoy!** 
 ##Dependencies
  - Python
 
-## 
-**Disclaimer:**
-**Please do not use in military or secret service organizations, or for illegal purposes. The tool here is only used for educational purposes only. I will not be held responsible for any illegal activities conducted with this. Enjoy!** 
+
 ####**Happy Social Engineering and Password Cracking!**
 
