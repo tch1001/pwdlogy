@@ -8,14 +8,18 @@ A victims'-profile-based wordlist generating tool for social engineers and secur
 Pwdlogy is based on the programming language python. As such, Python will need to be installed. 
 ###Linux/Mac
 To start using pwdlogy, change directory into the project folder.
-> cd pwdlogy-master
+
+    cd pwdlogy-master
 
 Then use the following command to run the python script
 
- > python pwdlogy.py
+ 
+
+    python pwdlogy.py
 
 You will see a console like this
->pwdlogy > 
+
+    pwdlogy > 
 
 ### Windows
 Sorry, pwdlogy currently does not run on windows.
