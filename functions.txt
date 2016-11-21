@@ -1,0 +1,234 @@
+++++
+'k' for keyword
+Calling this format character will to append all the strings in the keywords list
+
+Example:
+Keywords = ['hello','world','the','quick','brown','fox']
+
+Generating wordlist with format 'k'
+hello
+world
+the
+quick
+brown
+fox
+
+++++
+'K' for keyword (first letter capital)
+As most people will capitalise the first letter when told to have capital letters,
+this format character will go through all the strings in the keywords list and append them with
+the first letter capitalised
+
+Example:
+Keywords = ['hello','world','the','quick','brown','fox']
+
+Generating wordlist with format 'K'
+Hello
+World
+The
+Quick
+Brown
+Fox
+
+++++
+'a' for alternate capitalisation
+This format characer capitalises alternate characters throughout the entire wordlist and appends them
+
+
+Example:
+Keywords = ['hello','world']
+
+Generating wordlist with format 'a'
+HeLlO
+hElLo
+WoRlD
+wOrLd
+
+++++
+'b' for simple birthday
+This format character will append all birthdays
+
+Example:
+Birthdays = [['01','02','03,'2003']] #DD,MM,YY,YYYY
+
+Generating wordlist with format 'b'
+01
+02
+03
+2003
+
+++++
+'B' for complex birthday
+This format character will append all possible birthday combinations of 1,2,3 and 4 birthdays together
+WARNING: This generates a lot of combinations (~340), appending it to any format might cause huge wait time
+
+Example:
+Birthdays = [['01','02','03','2003']]
+
+Generating wordlist with format 'B'
+01 #start of 1 birthday combo
+02
+03
+2003
+0101 #start of 2 birthday combo
+0102
+0103
+...
+200302
+200303
+20032003
+010101 #start of 3 birthday combo
+010102
+010103
+01012003
+010201
+010202
+010203
+01022003
+...
+2003200301
+2003200302
+2003200303
+200320032003
+01010101 #start of 4 birthday combo
+01010102
+01010103
+0101012003
+01010201
+01010202
+01010203
+0101022003
+01010301
+01010302
+01010303
+...
+200320030302
+200320030303
+20032003032003
+20032003200301
+20032003200302
+20032003200303
+2003200320032003
+
+++++
+'s' for special character
+This format character appends all the characters in the special characters list
+
+Example:
+Special Characters = ['!','?','@','#','$']
+
+Generating wordlist with format 's'
+!
+?
+@
+#
+$
+
+++++
+'n' for number
+This format character appends all numbers (stored as strings though) in the numbers list
+
+Example:
+Numbers = ['1','2','3']
+
+Generating wordlist with format 'n'
+1
+2
+3
+
+++++
+'r' for reverse word
+This format character appends all the words in the keywords list in reverse letter order
+
+Example:
+Keywords = ['hi','bye','cool']
+
+Generating wordlist with format 'r'
+ih
+eyb
+looc
+
+++++
+'R' for reverse word (first letter capitalise)
+This format character appends all the words in the keywords list in reverse letter order
+With the first character capitalised
+
+Example:
+Keywords = ['hi','bye','cool']
+
+Generating wordlist with format 'R'
+Ih
+Eyb
+Looc
+
+
+++++
+'c' for character
+This format character appends all the characters in the characters list
+
+Example:
+Keywords = ['a','b','c']
+
+Generating wordlist with format 'c'
+a
+b
+c
+
+
+++++
+'C' for capitalised character
+This format character appends all the characters in the characters list capitalised
+
+Example:
+Keywords = ['a','b','c']
+
+Generating wordlist with format 'c'
+A
+B
+C
+
+
+++++
+'_' for underscore
+This format character appends an underscore
+
+Example:
+Keywords = ['a','b','c']
+
+Generating wordlist with format 'k_k'
+a_a
+a_b
+a_c
+b_a
+b_b
+b_c
+...
+c_c
+
+++++
+'l' for l33t
+This format character influences the whole generated word to be l33ted
+*Leet Replacements can be changed*
+
+Example:
+Keywords = ['a', 'b', 'o']
+Leet Replacements = [(o,0),(e,3)]
+
+Generating wordlist with format 'lkk'
+aa
+44
+ab
+4b
+ao
+40
+ba
+b4
+bb
+bo
+b0
+oa
+04
+ob
+0b
+oo
+00

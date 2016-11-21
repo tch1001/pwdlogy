@@ -1,0 +1,6 @@
+# Add the victim's birthday
+# You can also add multiple birthdays
+# E.g. Family members's birthday/Friend's birthday/Pet's birthday
+# Format:	DDMMYYYY
+
+01022003
