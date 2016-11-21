@@ -1,4 +1,4 @@
-#Pwdlogy
+#Pwdlogy - Powerful Target Specific Passwords Profiler
 
 A target specific wordlist generating tool for social engineers and security researchers! You can create wordlists based on keywords about the person's interests, favourite food, games, closed ones' birthday and names, and even combine them with special characters and numbers to create a highly-target-specific wordlist! It is also fully customisable so you can add your own special characters, numbers, keywords, birthdays, create your own settings, and even password formats. Hope you find this tool useful!
 
