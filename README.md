@@ -195,13 +195,13 @@ The list of formats are not proven to be ideal, and please feel free to change i
 To change defaults (which is not recommended unless you are very sure of what you are doing and have some experience with this tool), follow the steps below:
 
  1. Go to the `default.conf` file and open it with a text editor of your choice.
- 2. You will see the following:
-`format = formats_default.conf`
+ 2. You will see the following:<br>
+`format = formats_default.conf`<br>
 `settings = settings_default.conf`
  3. To change it, simple replace the existing filename with the filename of your own formats or settings file.
  4. E.g.
-`format = my_own_format.conf`
-`settings = my_own_settings.conf`
+`format = my_own_format.conf`<br>
+`settings = my_own_settings.conf`<br>
  5. Now just rerun the program with `python pwdlogy.py`  and the new settings and formats will be in place!
 
 ## 
