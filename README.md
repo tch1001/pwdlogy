@@ -7,8 +7,8 @@ Link to Blog: [tch1001.wordpress.com](https://tch1001.wordpress.com/)
 **Disclaimer:**
 **Please do not use in military or secret service organizations, or for illegal purposes. The tool here is only used for educational purposes only. I will not be held responsible for any illegal activities conducted with this. Enjoy!** 
 ##Installation
-Pwdlogy is based on the programming language python. As such, Python will need to be installed. 
-###Linux/Mac
+Pwdlogy is based on the programming language python (version 3). As such, Python 3 will need to be installed. 
+###Linux/Mac/Windows
 To start using pwdlogy, change directory into the project folder.
 
     cd pwdlogy-master
@@ -19,12 +19,11 @@ Then use the following command to run the python script
 
     python pwdlogy.py
 
-You will see a console like this
+You will see a console like this 
 
     pwdlogy > 
 
-### Windows
-Sorry, pwdlogy currently does not run on windows.
+**Note: When running on windows, built-in commands like `cls` (or `clear` on linux/mac), `dir` (or `ls`), `cd`, do not work.**
 ##How to Use
 
  1. Find out the victim's name, username, hobbies, sports team, favourite food, and everything you can find out about him that might appear in his/her password
@@ -209,7 +208,7 @@ To change defaults (which is not recommended unless you are very sure of what yo
 **Disclaimer:**
 **Please do not use in military or secret service organizations, or for illegal purposes. The tool here is only used for educational purposes only. I will not be held responsible for any illegal activities conducted with this. Enjoy!** 
 ##Dependencies
- - Python
+ - Python 3
 
 
 ####**Happy Social Engineering and Password Cracking!**
