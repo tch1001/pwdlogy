@@ -2,6 +2,8 @@
 
 A target specific wordlist generating tool for social engineers and security researchers! You can create wordlists based on keywords about the person's interests, favourite food, games, closed ones' birthday and names, and even combine them with special characters and numbers to create a highly-target-specific wordlist! It is also fully customisable so you can add your own special characters, numbers, keywords, birthdays, create your own settings, and even password formats. Hope you find this tool useful!
 
+Link to Blog: [tch1001.wordpress.com](https://tch1001.wordpress.com/)
+
 **Disclaimer:**
 **Please do not use in military or secret service organizations, or for illegal purposes. The tool here is only used for educational purposes only. I will not be held responsible for any illegal activities conducted with this. Enjoy!** 
 ##Installation
