@@ -2,7 +2,8 @@
 
 A target specific wordlist generating tool for social engineers and security researchers! You can create wordlists based on keywords about the person's interests, favourite food, games, closed ones' birthday and names, and even combine them with special characters and numbers to create a highly-target-specific wordlist! It is also fully customisable so you can add your own special characters, numbers, keywords, birthdays, create your own settings, and even password formats. Hope you find this tool useful!
 
-Link to Blog: [tch1001.wordpress.com](https://tch1001.wordpress.com/)
+Link to Blog: [tch1001.wordpress.com](https://tch1001.wordpress.com/)<br>
+Example Walkthrough: [https://tch1001.wordpress.com/2016/11/23/pwdlogy-example-walkthrough/](https://tch1001.wordpress.com/2016/11/23/pwdlogy-example-walkthrough/)<br>
 
 **Disclaimer:**
 **Please do not use in military or secret service organizations, or for illegal purposes. The tool here is only used for educational purposes only. I will not be held responsible for any illegal activities conducted with this. Enjoy!** 
@@ -24,7 +25,8 @@ You will see a console like this
     pwdlogy > 
 
 **Note: When running on windows, built-in commands like `cls` (or `clear` on linux/mac), `dir` (or `ls`), `cd`, do not work.**
-##How to Use
+##How to Use<br>
+Example Walkthrough: [https://tch1001.wordpress.com/2016/11/23/pwdlogy-example-walkthrough/](https://tch1001.wordpress.com/2016/11/23/pwdlogy-example-walkthrough/)
 
  1. Find out the victim's name, username, hobbies, sports team, favourite food, and everything you can find out about him that might appear in his/her password
  2. Find out as much as possible about his pets, family, friends (e.g. their name, birthday, and any keyword that might appear in his/her password
